@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} 
+    /* navbar part */
 .navbar-brand{
     font-size: 2rem;
     color: black;
@@ -37,6 +38,37 @@
     outline: none;
     border: none;
     background: rgb(248, 26, 92);;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+    /* main section */
+.main{
+    background: url(fruits/vagitable.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(248, 26, 92);
+}
+/* #hbutton{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate( -5%, -60%);
+} */
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
     color: white;
     font-weight: 700;
     border-radius: 60px;
