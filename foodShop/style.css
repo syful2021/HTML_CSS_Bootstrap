@@ -87,3 +87,14 @@ transition: .5s;
 h1{
     font-weight: 700;
 }
+
+        /* apple section 6 */
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url('fruits/applecollect.jpg') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: "Lobster", sans-serif;
+}
